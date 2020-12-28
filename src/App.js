@@ -18,6 +18,7 @@ function App() {
       </header>
       <main className="App-main">
         <TimelineEvent person='lina do' status='super duper cool' timeStamp="2018-05-18T22:12:03Z" />
+        <Timeline events={events} />
       </main>
     </div>
   );
