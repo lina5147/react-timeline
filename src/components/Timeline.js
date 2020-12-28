@@ -3,9 +3,9 @@ import './Timeline.css';
 import TimelineEvent from './TimelineEvent';
 
 const Timeline = (props) => {
-  console.log(props)
+
   return (
-    <div>
+    <div className="timeline">
       {props.events.map((timelineEvent, i) => {
         return (
           <TimelineEvent 
